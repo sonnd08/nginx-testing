@@ -1,7 +1,7 @@
 ## Add this to `/etc/hosts`
 ```
-127.0.0.1   edge.aha.is
-::1         edge.aha.is
+127.0.0.1   local.aha.is
+::1         local.aha.is
 ```
 
 
@@ -18,4 +18,4 @@ docker run -it \
 docker exec -it test-nginx  /bin/bash
 ```
 
-## Testing at `https://edge.aha.is:4000`
+## Testing at `https://local.aha.is:4000`
